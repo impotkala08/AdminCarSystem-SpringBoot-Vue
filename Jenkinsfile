@@ -41,7 +41,7 @@ pipeline {
 
         stage('Deploy') {
             steps {
-                bat 'npm firebase deploy --token 1//0gd_UNeaAcGCMCgYIARAAGBASNwF-L9Ir-TW5p-LSIyxCWGYoZme0XXWXS5GJ8VaZ8bKHFDVV4u-jdtT_6xCTEBMReErhp4raKCc'
+                bat 'firebase deploy --token 1//0gd_UNeaAcGCMCgYIARAAGBASNwF-L9Ir-TW5p-LSIyxCWGYoZme0XXWXS5GJ8VaZ8bKHFDVV4u-jdtT_6xCTEBMReErhp4raKCc'
             }
         }
 }
