@@ -28,7 +28,7 @@ pipeline {
     stages {
         stage('Init') {
             steps {
-                bat 'npm install'
+                bat 'npm install --save'
             }
         }
 
