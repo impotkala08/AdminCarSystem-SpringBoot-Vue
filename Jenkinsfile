@@ -30,6 +30,7 @@ pipeline {
             steps {
                 bat 'npm install'
             }
+        }
 
         stage('Yarn Build') {
             bat 'npm run build'
@@ -40,5 +41,5 @@ pipeline {
         }
         }
     }
-}
+
 
