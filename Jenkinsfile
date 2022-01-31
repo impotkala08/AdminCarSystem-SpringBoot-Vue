@@ -29,6 +29,7 @@ pipeline {
         stage('Init') {
             steps {
                 bat 'npm install --save'
+                bat 'npm install --save axios'
             }
         }
 
